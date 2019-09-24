@@ -11,11 +11,13 @@ $font-family: 'Playfair Display', serif;
 }
 
 .page-lead {
-  padding: 1rem 1rem 0 1rem;
-  margin-bottom: 0.5rem;
+  padding: 1rem;
+  margin: 0;
 }
 
 .name {
+  padding: 0;
+  margin: 0;
   font-family: $font-family;
   font-size: 2.5rem;
 }
