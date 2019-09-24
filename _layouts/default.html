@@ -9,11 +9,11 @@
     <link rel="icon" href="https://github.com/ordinaryjellyfish.png">
     
     <link rel="canonical" href="{{site.url}}{{page.url}}">
-    <meta name="description" content="{{ page.excerpt }}">
+    <meta name="description" content="{{ content | strip_html | truncate_words: 20 }}">
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:url" content="{{site.url}}{{page.url}}">
     <meta property="og:site_name" content="OrdinaryJellyfish">
-    <meta property="og:description" content="{{ page.excerpt }}">
+    <meta property="og:description" content="{{ content | strip_html | truncate_words: 20 }}">
   </head>
   <body>
     <section class="page-lead">
