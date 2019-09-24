@@ -5,15 +5,16 @@
 
 .body {
   font-family: 'Playfair Display', serif;
+  font-size: 14px;
 }
 
 .page-lead {
   padding: 2.5rem;
-  margin-bottom: 1rem;
-  
-  .name {
-    font-size: 2rem;
-  }
+  margin: 0;
+}
+
+.name {
+  font-size: 2rem;
 }
 
 .content {
@@ -23,63 +24,12 @@
 
 .footer {
   text-align: center;
-  
-  a {
-    color: #000;
-    text-decoration: none;
-  
-    span {
-      font-weight: 100;
-      transition: all 0.5s;
-      border-bottom: 1px solid;
-    }
-  
-    span:nth-child(2) {
-      transition-delay: 0.1s;
-    }
-    
-    span:nth-child(3) {
-      transition-delay: 0.2s;
-    }
-  
-    span:nth-child(4) {
-      transition-delay: 0.3s;
-    }
-    
-    &:hover {
-      span {
-        font-weight: 700;
-      }
-      
-      span:nth-child(4) {
-        transition-delay: 0.3s;
-      }
-    
-      span:nth-child(3) {
-        transition-delay: 0.2s;
-      }
-      
-      span:nth-child(2) {
-        transition-delay: 0.1s;
-      }
-    
-      span:nth-child(1) {
-        transition-delay: 0s;
-      }
-    }
+}
 
-    &.hover-shadow {
-      &:hover {
-        $color: #ddd;
-        text-shadow: 1px 1px 0px $color, 2px 2px 0px $color, 3px 3px 0px $color;
-      }
-    }
+.footer-link {
+  text-decoration: none;
     
-    &.hover-color {
-      &:hover {
-        $color: #ddd;
-        border-color: darkmagenta;
-      }
-    }
+  &:hover {
+    text-decoration: underline;
   }
 }
