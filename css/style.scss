@@ -11,7 +11,7 @@ $font-family: 'Playfair Display', serif;
 }
 
 .page-lead {
-  padding: 1.5rem;
+  padding: 1rem;
   margin: 0;
 }
 
@@ -22,7 +22,7 @@ $font-family: 'Playfair Display', serif;
 
 .content {
   font-family: $font-family;
-  padding: 1.5rem;
+  padding: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -30,7 +30,7 @@ $font-family: 'Playfair Display', serif;
   text-align: center;
 }
 
-.footer-link {
+a {
   $color: #33c3f0;
   
   color: $color;
