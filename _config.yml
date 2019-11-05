@@ -1,1 +1,15 @@
+title: OrdinaryJellyfish
+description: Just the personal website of a perfectly ordinary jellyfish swimming in the ocean.
+
+twitter:
+  username: UnseenJellyfish
+social:
+  name: Tristian Kelly
+  links:
+    - https://twitter.com/UnseenJellyfish
+    - https://github.com/OrdinaryJellyfish
+
 permalink: /:title
+
+plugins:
+  - jemoji

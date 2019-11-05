@@ -1,12 +1,21 @@
 ---
 title: Hello.
+subtitle: I'm Tristian.
 layout: default
 ---
 
-I'm Tristian.
+:wave: Hey there. I'm Tristian.
 
-I'm an aspiring full-stack developer. I know some PHP, lots of JavaScript, and a little bit of everything else. I have a beautiful orange cat that loves to wrestle (I'm supposed to be a fish, what else would he do with one?).
+I'm a web developer. I'm pretty fluent with JavaScript and :heart: Vue.js. I also know a little PHP :)
 
-![My beautiful orange cat, Marvel](/marvel.jpg){:height="100%" width="100%"}
+I have lots of ideas, but I generally never follow through with them. I should probably work on that...
 
-Isn't he beautiful?
+Anyways, more about me:
+* I have no brain.
+* I've been around for millions of years...I even existed before dinosaurs!
+* I can clone myself.
+* I might be immortal. Maybe.
+* You kill me, I still sting you.
+* I can shut down a nuclear power plant.
+* I've been to space!
+* I come in many sizes.
