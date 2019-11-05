@@ -1,36 +1,18 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{ page.title }} | OrdinaryJellyfish</title>
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="icon" href="https://github.com/ordinaryjellyfish.png">
-    
-    <link rel="canonical" href="{{site.url}}{{page.url}}">
-    <meta name="description" content="{{ content | strip_html | truncate: 160 }}">
-    <meta property="og:title" content="{{ page.title }}">
-    <meta property="og:url" content="{{site.url}}{{page.url}}">
-    <meta property="og:site_name" content="OrdinaryJellyfish">
-    <meta property="og:description" content="{{ content | strip_html | truncate: 160 }}">
+    {% include head.html %}
   </head>
   <body>
-    <section class="page-lead">
-      <h1 class="name">Tristian Kelly</h1>
-      <p>Just swimming along...</p>
-    </section>
-    <section class="content">
-      <h1>{{ page.title }}</h1>
-      
-      {{ content }}
-    </section>
-    <section class="footer">
-      <a href="/donate">Donate</a> 
-      &bull; 
-      <a href="https://github.com/OrdinaryJellyfish">GitHub</a> 
-      &bull; 
-      <a href="mailto:tristian@thejellyfish.codes">Email me</a>
-    </section>
+    <header class="uk-background-secondary uk-padding uk-light uk-panel uk-margin-bottom">
+        <div class="uk-container">
+            <h1>{{ page.title }}</h1>
+            {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
+        </div>
+    </header>
+    <div class="uk-container">
+        {{ content }}
+    </div>
+    {% include footer.html %}
   </body>
 </html>
