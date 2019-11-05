@@ -3,6 +3,6 @@ title: Donate
 layout: default
 ---
 
-Thanks for donating! It's greatly appreciated.
+Thanks for donating! It's greatly appreciated :heart:
 
-[Donate via PayPal &#8594;](https://paypal.me/tristiank3604)
+[Donate via PayPal :money_with_wings:](https://paypal.me/tristiank3604)
