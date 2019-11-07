@@ -1,6 +1,5 @@
 ---
 title: Hello.
-subtitle: I'm Tristian.
 layout: default
 ---
 
