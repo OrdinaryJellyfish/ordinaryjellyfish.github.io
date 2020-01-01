@@ -21,4 +21,4 @@ Anyways, more about me:
 
 Also, I'm...
 
-:gay_pride_flag: GAY AND PROUD
+🏳️‍🌈 GAY AND PROUD
