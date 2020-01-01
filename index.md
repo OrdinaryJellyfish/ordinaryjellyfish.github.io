@@ -18,3 +18,7 @@ Anyways, more about me:
 * I can shut down a nuclear power plant.
 * I've been to space!
 * I come in many sizes.
+
+Also, I'm...
+
+:gay_pride_flag: GAY AND PROUD
